@@ -1,0 +1,28 @@
+.authentication{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    font-size: 15px;
+    font-weight: bold;
+    background-size: 100% 100%;
+}
+
+.authentication h4 {
+
+    height: 15px;
+    width: 10px;
+    padding-bottom: 50%;
+
+}
+
+.authentication .ant-row{
+    width: 100%;
+    justify-content: right !important;
+    font-weight: bold;
+
+}
+
+.authentication form{
+    padding: 15px;
+    font-weight: bold;
+}
