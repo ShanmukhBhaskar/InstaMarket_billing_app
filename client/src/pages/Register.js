@@ -26,6 +26,12 @@ function Register() {
     if (localStorage.getItem("pos-user")) navigate("/home");
   }, []);
   return (
+    <h4>
+        <img
+          src="https://i.pinimg.com/564x/bb/42/15/bb421588478f7ac7f5c263bafab5f9ea.jpg"
+          alt=""
+        ></img>
+      </h4>
     <div className="authentication">
       <Row>
         <Col lg={8} xs={22}>
